@@ -1,0 +1,10 @@
+
+# Relations with the King
+
+(..0.05) Nonexistent
+(0.05..0.14) Highly disapproving
+(0.14..0.24) Disapproval
+(0.24..0.44) Neutral
+(0.44..0.69) Okay
+(0.69..1) Good
+(1..) Loving
