@@ -10,12 +10,16 @@ max-visits: 12
 
 = Inter-Party Relationships
 
-The SPD cannot govern by itself yet. Because we do not have an electoral majority, we need the support of other parties. Recently, our governments have consisted of the Weimar Coalition of the SPD, Center, and Democratic parties. We can reach out and build additional connections with these parties, or perhaps we can stand alone.
+The Liberals are still weak. We need allies with other parties.
 
-- @liberals: Strengthen our bonds with the left-liberal German Democratic Party and conservative-liberal German People's Party.
-- @center: Strengthen our bonds with the Catholic Center Party.
-- @kpd: Work towards repairing relationships with the Communist Party.
-- @spd_alone: The SPD can stand alone for now.
+Furthermore- We also have a chance to reunite with the National Liberals.
+
+Or- Some of the radicals want us to stay alone and isolated, Although this is a very radical path. 
+
+- @liberals: Repair our bonds with the National Liberals, Looking to reunifying the Liberal Party.
+- @center: Strengthen our bonds with the Conservative Party. Much of the older, right wing liberals are in favour of this approach.
+- @kpd: Work towards a closer relationship with the Labour Party. Our younger members of New Liberalism support this approach.
+- @spd_alone: The Liberals can stand alone for now.
 - @easy_discard
 
 
@@ -29,13 +33,15 @@ go-to: kpd_blutmai if blutmai = 1; kpd_1 if blutmai = 0 and kpd_coalition_succes
 @kpd_1
 on-arrival: kpd_relation += 6*(1 - dissent); communist_coalition += 1 if kpd_inter_party_seen <= 1; reformist_dissent += 2; z_relation -= 2; dvp_relation -= 3
 
-The communists are suspicious of our overtures, especially the Stalinist leadership, who persist in calling us "social fascists". However, connections are made at the grassroots and local levels.
+The socialists take our gestures with distrust- Although moderates take it much more kindly than the Hard Left, Who continue to regard us as 'Bourgiouse Puppets.'
 
 @kpd_rectification_of_history
 
-One stumbling block for our relations with the KPD is our history of conflict, dating back to 1918 and 1919. The KPD is especially contemptuous of Gustav Noske, the SPD "bloodhound" who reportedly ordered the violent suppression of the Spartacist uprising and other KPD revolts. They also blame us for the deaths of Rosa Luxemburg and Karl Liebknecht, two SPD-turned-KPD leaders who were killed during the suppression of the uprising.
+While a Lib-Lab pact is not a new idea (Argubably predating the Modern Labour Party), The Labour Party leadership has cautiously lended us an offer for an electoral pact where Labour will stand down their candidates in seats we are more likely to win, And we will do the same in return.
 
-For further improvements in KPD relations, it might be necessary to expel Noske, and hold some sort of commemoration for Luxemburg and Liebknecht.
+While the pact would boost both our seat shares due to the first past the post system, Our agarian and older base would almost surely see it as a betreyal of our Liberal ideals. The Tories would also use it in their newspapers- Decrying us as socialists, Or at least helping them.
+
+The signing of a pact will also break off any chance of us reuniting with the National Liberals.
 
 - @yes_history: Yes, we must apologize for our past actions.
 - @no_history: No, we have no need to apologize.
@@ -43,14 +49,14 @@ For further improvements in KPD relations, it might be necessary to expel Noske,
 @yes_history
 on-arrival: reformist_dissent += 12; reformist_strength -= 2; neorevisionist_dissent += 5; left_dissent -= 6; left_strength += 5; kpd_rectified_history = 1; z_relation -= 6; dvp_relation -= 6; ddp_relation -= 4; kpd_relation += 8*(1-dissent); coalition_dissent += 1
 
-As part of normalizing relations with the KPD, we have to acknowledge the wrongdoings of our past. We have expelled Noske, and have held public commemorations for those killed by troops during the uprisings.
+We agree to the pact, Agreeing to a 5 year pact which can be renewed in another 5 years.
 
-This leads to tensions with the moderates and reformists within our party, and criticism from the conservative and liberal parties.
+The National Liberals and Tories criticse our move, While the Labour establishment is delighted.
 
 @no_history
 on-arrival: kpd_relation -= 3
 
-We have no need to apologize for the actions of Ebert and Noske; it is the Communists' fault for launching a violent insurrection.
+We have no need to ally ourseleves with socialists. We will keep Labour at an arm's legnth. 
 
 
 @kpd_2
