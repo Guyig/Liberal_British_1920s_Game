@@ -1,13 +1,13 @@
-title: Otto Braun
+title: Herbert Lewis
 is-pinned-card: true
 tags: advisor, reformist
 card-image: img/portraits/BraunOtto.jpg
 view-if: braun_advisor = 1
 new-page: true 
 
-= Otto Braun
+= Herbert Lewis
 
-Braun [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was ?] the Minister-President of Prussia, the largest state in Germany. He is a reformist leader who seeks to work with the bourgeois parties.
+Herbert Lewis [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was ?] one of the main Welsh Liberal polticans. He is the former MP for Flintshire and University of Wales. Despite being apart of the main Liberal Party, He is still close with Lloyd George- As evidenced by his OBE in the 1922 Dissolution Honours. 
 
 - @coalition
 - @prussian_bulwark
