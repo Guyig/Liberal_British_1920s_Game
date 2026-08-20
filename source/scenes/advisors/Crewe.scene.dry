@@ -1,13 +1,13 @@
-title: Siegfried Aufhäuser
+title: The Marquess of Crewe
 is-pinned-card: true
 tags: advisor, reformist
 card-image: img/portraits/AufhäuserSiegfried.jpg
 view-if: aufhauser_advisor = 1
 new-page: true 
 
-= Siegfried Aufhäuser
+= Marquess of Crewe
 
-Aufhäuser is a leader of the AfA-Bund, the federation of socialist white-collar trade unions.
+The Marquess of Crewe is the former colonial poltician. His main focuses have long been to our main colonies like Ireland and India. He is also the former Leader of the House of Lords. 
 
 - @white_collar
 - @union_unity
