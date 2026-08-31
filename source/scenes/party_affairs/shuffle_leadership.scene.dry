@@ -61,14 +61,14 @@ go-to: rm_main
 Asquith has been removed as an advisor. The Centrist faction disapproves.
 
 
-@remove_breitscheid
-title: Remove Breitscheid
+@remove_harmsworth
+title: Remove Harmsworth
 view-if: breitscheid_advisor = 1
 tags: remove_advisor
 on-arrival: breitscheid_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Breitscheid has been removed as an advisor. The Centrist faction disapproves.
+Harmsworth has been removed as an advisor. The Centrist faction disapproves.
 
 # reformists
 
