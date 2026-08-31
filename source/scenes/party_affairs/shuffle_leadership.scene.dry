@@ -82,14 +82,14 @@ go-to: rm_main
 
 Wintrigham has been removed as an advisor. The Reformist faction disapproves.
 
-@remove_braun
-title: Remove Braun
+@remove_lewis
+title: Remove Lewis
 view-if: braun_advisor = 1
 tags: remove_advisor
 on-arrival: braun_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Braun has been removed as an advisor. The Reformist faction disapproves.
+Lewis has been removed as an advisor. The Reformist faction disapproves.
 
 @remove_beveridge
 title: Remove Beveridge
@@ -233,7 +233,7 @@ Jones has been removed as an advisor. The Neorevisionist faction disapproves.
 
 # tbh I'm not sure if Baade should be a reformist or nonfactional. same for stampfer. they were vaguely reformist-aligned but had pretty different ideas from the other reformists here. so they're non-factional.
 
-@remove_Pratt
+@remove_pratt
 title: Remove Pratt
 view-if: baade_advisor = 1
 tags: remove_advisor
@@ -245,32 +245,32 @@ Pratt has been removed as an advisor.
 #The Reformist faction disapproves.
 
 
-@remove_hirschfeld
-title: Remove Hirschfeld
+@remove_hobson
+title: Remove Hobson
 view-if: hirschfeld_advisor = 1
 tags: remove_advisor
 on-arrival: hirschfeld_advisor = 0; n_advisors -= 1
 go-to: rm_main
 
-Hirschfeld has been removed as an advisor. 
+Hobson has been removed as an advisor.
 
-@remove_stampfer
-title: Remove Stampfer
+@remove_howard
+title: Remove Howard
 view-if: stampfer_advisor = 1
 tags: remove_advisor
 on-arrival: stampfer_advisor = 0; n_advisors -= 1
 go-to: rm_main
 
-Stampfer has been removed as an advisor. 
+Howard has been removed as an advisor. 
 
-@remove_radbruch
-title: Remove Radbruch
+@remove_churchill
+title: Remove Churchill
 view-if: radbruch_advisor = 1
 tags: remove_advisor
 on-arrival: radbruch_advisor = 0; n_advisors -= 1
 go-to: rm_main
 
-Radbruch has been removed as an advisor. 
+Churchill has been removed as an advisor. 
 
 
 
