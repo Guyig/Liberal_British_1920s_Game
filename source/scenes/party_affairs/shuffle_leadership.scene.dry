@@ -160,14 +160,14 @@ go-to: rm_main
 
 Haldane has been removed as an advisor. The Leftist faction disapproves.
 
-@remove_sender
-title: Remove Sender
+@remove_carington
+title: Remove Carington
 view-if: sender_advisor = 1
 tags: remove_advisor
 on-arrival: sender_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Sender has been removed as an advisor. The Leftist faction disapproves.
+Carington has been removed as an advisor. The Leftist faction disapproves.
 
 @remove_rosenfeld
 title: Remove Rosenfeld
