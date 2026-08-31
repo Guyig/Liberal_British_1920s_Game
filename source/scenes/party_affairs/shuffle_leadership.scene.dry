@@ -121,33 +121,33 @@ go-to: rm_main
 
 Grey has been removed as an advisor. The Labor faction disapproves.
 
-@remove_aufhauser
-title: Remove Aufhäuser
+@remove_crewe
+title: Remove Crewe
 view-if: aufhauser_advisor = 1
 tags: remove_advisor
 on-arrival: aufhauser_advisor = 0; labor_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Aufhäuser has been removed as an advisor. The Labor faction disapproves.
+Crewe has been removed as an advisor. The Labor faction disapproves.
 
-@remove_wissell
-title: Remove Wissell
+@remove_macnarma
+title: Remove Macnarma
 view-if: wissell_advisor = 1
 tags: remove_advisor
 on-arrival: wissell_advisor = 0; labor_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Wissell has been removed as an advisor. The Labor faction disapproves.
+Macnarma has been removed as an advisor. The Labor faction disapproves.
 
 
-@remove_woytinsky
-title: Remove Woytinsky
+@remove_kenyes
+title: Remove Kenyes
 view-if: woytinsky_advisor = 1
 tags: remove_advisor
 on-arrival: woytinsky_advisor = 0; labor_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Woytinsky has been removed as an advisor. The Labor faction disapproves.
+Kenyes has been removed as an advisor. The Labor faction disapproves.
 
 # left
 
