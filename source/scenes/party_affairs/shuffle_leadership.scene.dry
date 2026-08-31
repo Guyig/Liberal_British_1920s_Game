@@ -201,46 +201,46 @@ AcLand has been removed as an advisor. The Leftist faction disapproves.
 
 # neorevisionists
 
-@remove_mierendorff
-title: Remove Mierendorff
+@remove_samuel
+title: Remove Samuel
 view-if: mierendorff_advisor = 1
 tags: remove_advisor
 on-arrival: mierendorff_advisor = 0; neorevisionist_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Mierendorff has been removed as an advisor. The Neorevisionist faction disapproves.
+Samuel has been removed as an advisor. The Neorevisionist faction disapproves.
 
-@remove_leber
-title: Remove Leber
+@remove_runciman
+title: Remove Runciman
 view-if: leber_advisor = 1
 tags: remove_advisor
 on-arrival: leber_advisor = 0; neorevisionist_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Leber has been removed as an advisor. The Neorevisionist faction disapproves.
+Runciman has been removed as an advisor. The Neorevisionist faction disapproves.
 
-@remove_schumacher
-title: Remove Schumacher
+@remove_jones
+title: Remove Jones
 view-if: schumacher_advisor = 1
 tags: remove_advisor
 on-arrival: schumacher_advisor = 0; neorevisionist_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Schumacher has been removed as an advisor. The Neorevisionist faction disapproves.
+Jones has been removed as an advisor. The Neorevisionist faction disapproves.
 
 
 ## nonfactional
 
 # tbh I'm not sure if Baade should be a reformist or nonfactional. same for stampfer. they were vaguely reformist-aligned but had pretty different ideas from the other reformists here. so they're non-factional.
 
-@remove_baade
-title: Remove Baade
+@remove_Pratt
+title: Remove Pratt
 view-if: baade_advisor = 1
 tags: remove_advisor
 on-arrival: baade_advisor = 0; n_advisors -= 1
 go-to: rm_main
 
-Baade has been removed as an advisor.
+Pratt has been removed as an advisor.
 
 #The Reformist faction disapproves.
 
