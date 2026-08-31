@@ -73,14 +73,14 @@ Harmsworth has been removed as an advisor. The Centrist faction disapproves.
 # reformists
 
 
-@remove_severing
-title: Remove Severing
+@remove_wintrigham
+title: Remove Wintrigham
 view-if: severing_advisor = 1
 tags: remove_advisor
 on-arrival: severing_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Severing has been removed as an advisor. The Reformist faction disapproves.
+Wintrigham has been removed as an advisor. The Reformist faction disapproves.
 
 @remove_braun
 title: Remove Braun
