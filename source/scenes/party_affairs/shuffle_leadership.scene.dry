@@ -169,32 +169,32 @@ go-to: rm_main
 
 Carington has been removed as an advisor. The Leftist faction disapproves.
 
-@remove_rosenfeld
-title: Remove Rosenfeld
+@remove_munro
+title: Remove Munro
 view-if: rosenfeld_advisor = 1
 tags: remove_advisor
 on-arrival: rosenfeld_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Rosenfeld has been removed as an advisor. The Leftist faction disapproves.
+Munro has been removed as an advisor. The Leftist faction disapproves.
 
-@remove_seydewitz
-title: Remove Seydewitz
+@remove_maclean
+title: Remove Maclean
 view-if: seydewitz_advisor = 1
 tags: remove_advisor
 on-arrival: seydewitz_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Seydewitz has been removed as an advisor. The Leftist faction disapproves.
+Maclean has been removed as an advisor. The Leftist faction disapproves.
 
-@remove_siemsen
-title: Remove Siemsen
+@remove_acland
+title: Remove AcLand
 view-if: siemsen_advisor = 1
 tags: remove_advisor
 on-arrival: siemsen_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
 
-Siemsen has been removed as an advisor. The Leftist faction disapproves.
+AcLand has been removed as an advisor. The Leftist faction disapproves.
 
 
 
