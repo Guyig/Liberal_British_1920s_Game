@@ -100,26 +100,26 @@ go-to: rm_main
 
 Beveridge has been removed as an advisor. The Reformist faction disapproves.
 
-@remove_pfulf
-title: Remove Pfülf
+@remove_mckenna
+title: Remove McKenna
 view-if: pfulf_advisor = 1
 tags: remove_advisor
 on-arrival: pfulf_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Pfülf has been removed as an advisor. The Reformist faction disapproves.
+McKenna has been removed as an advisor. The Reformist faction disapproves.
 
 
 # labor
 
-@remove_leipart
-title: Remove Leipart
+@remove_grey
+title: Remove Grey
 view-if: leipart_advisor = 1
 tags: remove_advisor
 on-arrival: leipart_advisor = 0; labor_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Leipart has been removed as an advisor. The Labor faction disapproves.
+Grey has been removed as an advisor. The Labor faction disapproves.
 
 @remove_aufhauser
 title: Remove Aufhäuser
