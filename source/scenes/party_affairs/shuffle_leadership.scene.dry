@@ -329,8 +329,8 @@ view-if: n_advisors < 3
 
 - #nonfactional_advisor
 
-@add_hilferding
-title: Rudolf Hilferding
+@add_hobhouse
+title: John A. Hobhouse
 subtitle: Rudolf Hilferding is an economist and one of our chief Marxist theoreticians. {!<br><br>!}[? if difficulty < 0 : Actions - Against Right and Left, Defending Toleration, Fiscal Policy, Economic Democracy ?]
 is-card: true
 card-image: img/portraits/HilferdingRudolf.jpg
@@ -339,10 +339,10 @@ view-if: hilferding_advisor = 0 and n_advisors < 3 and centrists_resign = 0
 on-arrival: hilferding_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
-Rudolf Hilferding is now an advisor.
+John A. Hobhouse is now an advisor.
 
-@add_wels
-title: Otto Wels
+@add_simon
+title: John Simon
 subtitle: Otto Wels is a long-time party organizer and member of the leadership, serving under Friedrich Ebert. {!<br><br>!}[? if difficulty < 0 : Actions -  Clear the Agenda, Party Discipline, Emergency Fundraising ?]
 is-card: true
 card-image: img/portraits/WelsRudolf.jpg
@@ -351,10 +351,10 @@ view-if: wels_advisor = 0 and n_advisors < 3 and centrists_resign = 0
 on-arrival: wels_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
-Otto Wels is now an advisor.
+John Simon is now an advisor.
 
-@add_muller
-title: Hermann Müller
+@add_asquith
+title: H.H Asquith
 subtitle: Hermann Müller is the last Social Democratic Chancellor. {!<br><br>!}[? if difficulty < 0 : Actions - Negotiating with the Coalition, Defending Toleration ?]
 is-card: true
 card-image: img/portraits/MüllerHermann.jpg
@@ -363,10 +363,10 @@ view-if: muller_advisor = 0 and muller_dead = 0 and n_advisors < 3 and centrists
 on-arrival: muller_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
-Hermann Müller is now an advisor.
+H.H Asquith is now an advisor.
 
-@add_breitscheid
-title: Rudolf Breitscheid
+@add_harmsworth
+title: Harmsworth
 subtitle: Rudolf Breitscheid comes from a well-educated background and is one of our foreign policy leaders. {!<br><br>!}[? if difficulty < 0 : Actions - International Relations, Foreign Policy, Party Discipline ?]
 is-card: true
 card-image: img/portraits/BreitscheidRudolf.jpg
@@ -375,13 +375,13 @@ on-arrival: breitscheid_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: center_advisor
 
-Rudolf Breitscheid is now an advisor.
+Harmsworth is now an advisor.
 
 # reformist
 
 
-@add_severing
-title: Carl Severing
+@add_wintrigham
+title: Margaret Wintringham
 subtitle: Carl Severing is a one-time Prussian interior minister and police reformer. {!<br><br>!}[? if difficulty < 0 : Actions - Prussian Bulwark, Police Affairs ?]
 is-card: true
 card-image: img/portraits/SeveringCarl.jpg
@@ -390,10 +390,10 @@ view-if: severing_advisor = 0 and n_advisors < 3
 on-arrival: severing_advisor = 1; n_advisors += 1; reformist_strength += 5
 go-to: advisor_menu
 
-Carl Severing is now an advisor.
+Margaret Wintringham is now an advisor.
 
-@add_braun
-title: Otto Braun
+@add_lewis
+title: Herbert Lewis
 subtitle: Otto Braun is the Minister-President of Prussia, and one of the most recognizable and well-known Social Democratic leaders. {!<br><br>!}[? if difficulty < 0 : Actions - Prussian Bulwark, Negotiating with the Coalition ?]
 is-card: true
 card-image: img/portraits/BraunOtto.jpg
@@ -402,10 +402,10 @@ view-if: braun_advisor = 0 and n_advisors < 3
 on-arrival: braun_advisor = 1; n_advisors += 1; reformist_strength += 5
 go-to: advisor_menu
 
-Otto Braun is now an advisor.
+Herbert Lewis is now an advisor.
 
-@add_juchacz
-title: Marie Juchacz
+@add_beveridge
+title: William Beveridge
 subtitle: Marie Juchacz is the founder of Worker's Welfare, a mutual-aid organization. {!<br><br>!}[? if difficulty < 0 : Actions - Emergency Fundraising, Worker's Welfare, Organizing Women ?]
 is-card: true
 card-image: img/portraits/JuchaczMarie.jpg
@@ -414,10 +414,10 @@ on-arrival: juchacz_advisor = 1; n_advisors += 1; reformist_strength += 5
 go-to: advisor_menu
 tags: reformist_advisor
 
-Marie Juchacz is now an advisor.
+William Beveridge is now an advisor.
 
-@add_pfulf
-title: Antonie Pfülf
+@add_mckenna
+title: Reginald McKenna
 subtitle: Antonie Pfülf is a leader in social policy and women's rights. {!<br><br>!}[? if difficulty < 0 : Actions - Support a People's Party, Women's Rights ?]
 is-card: true
 card-image: img/portraits/PfülfAntonie.jpg
@@ -426,14 +426,14 @@ on-arrival: pfulf_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: reformist_advisor
 
-Antonie Pfülf is now an advisor.
+Reginald McKenna is now an advisor.
 
 
 
 # left
 
-@add_levi
-title: Paul Levi
+@add_grey
+title: Edward Grey
 subtitle: Paul Levi is a former KPD leader who was purged for criticizing Communist policies. {!<br><br>!}[? if difficulty < 0 : Actions - Building the Left, Cooperation with the KPD ?]
 is-card: true
 card-image: img/portraits/LeviPaul.jpg
@@ -442,10 +442,10 @@ on-arrival: levi_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-Paul Levi is now an advisor.
+Edward Grey is now an advisor.
 
-@add_sender
-title: Toni Sender
+@add_crewe
+title: Marquess of Crewe
 subtitle: Toni Sender is an anti-war and womens' rights advocate, and Reichstag member. {!<br><br>!}[? if difficulty < 0 : Actions - Left-Center Unity, Organizing Women, Against Toleration, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/SenderToni.jpg
@@ -454,10 +454,10 @@ on-arrival: sender_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-Toni Sender is now an advisor.
+The Marquess of Crewe is now an advisor.
 
-@add_rosenfeld
-title: Kurt Rosenfeld
+@add_macnarma
+title: Thomas Macnamara
 subtitle: Kurt Rosenfeld is a lawyer, anti-militarist activist, and Reichstag member. {!<br><br>!}[? if difficulty < 0 : Actions - Building the Left, Cooperation with the KPD, Against Toleration ?]
 is-card: true
 card-image: img/portraits/RosenfeldKurt.jpg
@@ -466,7 +466,7 @@ on-arrival: rosenfeld_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-Kurt Rosenfeld is now an advisor.
+Thomas Macnamara is now an advisor.
 
 @add_seydewitz
 title: Max Seydewitz
