@@ -468,8 +468,8 @@ tags: left_advisor
 
 Thomas Macnamara is now an advisor.
 
-@add_seydewitz
-title: Max Seydewitz
+@add_MacLean
+title: Donald MacLean
 subtitle: Max Seydewitz is a former leader of the youth wing, current supporter of the left wing of the SPD, and advocates for class struggle. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Class Struggle, Socialist Youth, Against Toleration ?]
 is-card: true
 card-image: img/portraits/SeydewitzMax.jpg
@@ -478,10 +478,10 @@ on-arrival: seydewitz_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-Max Seydewitz is now an advisor.
+Donald MacLean is now an advisor.
 
-@add_siemsen
-title: Anna Siemsen
+@add_AcLand
+title: Francis Dyke Acland
 subtitle: Anna Siemsen is an and educational reform advocate and pacifist, who was one of the few German women to receive a PhD in the pre-war period. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Pacifism, Educational Curriculum, Educational Structure ?]
 is-card: true
 card-image: img/portraits/SiemsenAnna.jpg
@@ -490,14 +490,14 @@ on-arrival: siemsen_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-Anna Siemsen is now an advisor.
+Francis Dyke Acland is now an advisor.
 
 
 
 # labor
 
-@add_leipart
-title: Theodor Leipart
+@add_Grey
+title: Edward Grey
 subtitle: Theodor Leipart is the leader of the ADGB, the German Trade Union Federation. {!<br><br>!}[? if difficulty < 0 : Actions - Organizing Workers, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/LeipartTheodor.jpg
@@ -506,10 +506,10 @@ view-if: leipart_advisor = 0 and n_advisors < 3 and unions_independent = 0
 on-arrival: leipart_advisor = 1; n_advisors += 1; labor_strength += 5
 go-to: advisor_menu
 
-Theodor Leipart is now an advisor.
+Edward Grey is now an advisor.
 
-@add_aufhauser
-title: Siegfried Aufhäuser
+@add_Crewe
+title: The Marquess of Crewe
 subtitle: Siegfried Aufhäuser is the leader of the AfA-Bund, the white-collar trade union federation. {!<br><br>!}[? if difficulty < 0 : Actions - Organizing White-Collar Workers, Union-Party Coordination, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/AufhäuserSiegfried.jpg
@@ -518,10 +518,10 @@ view-if: aufhauser_advisor = 0 and n_advisors < 3
 on-arrival: aufhauser_advisor = 1; n_advisors += 1; labor_strength += 5
 go-to: advisor_menu
 
-Siegfried Aufhäuser is now an advisor.
+The Marquess of Crewe is now an advisor.
 
-@add_wissell
-title: Rudolf Wissell
+@add_MacNarma
+title: Thomas Macnamara
 subtitle: Rudolf Wissell is an economist who has been the Labor Minister, and is an advocate for the interests of labor within the government. {!<br><br>!}[? if difficulty < 0 : Actions - Union-Party Coordination, Labor Rights ?]
 is-card: true
 card-image: img/portraits/WissellRudolf.jpg
@@ -530,11 +530,11 @@ view-if: wissell_advisor = 0 and n_advisors < 3 and unions_independent = 0
 on-arrival: wissell_advisor = 1; n_advisors += 1; labor_strength += 3
 go-to: advisor_menu
 
-Rudolf Wissell is now an advisor.
+Thomas Macnamara is now an advisor.
 
 
-@add_woytinsky
-title: Wladimir Woytinsky
+@add_Kenyes
+title: John Maynard Keynes
 subtitle: Wladimir Woytinsky is a former Russian Menshevik who is now the lead trade union economist. {!<br><br>!}[? if difficulty < 0 : Actions - Addressing the Economic Crisis, Carrying Out the Economic Plan ?]
 is-card: true
 card-image: img/portraits/WoytinskyWladimir.jpg
@@ -543,13 +543,13 @@ view-if: woytinsky_advisor = 0 and n_advisors < 3 and unions_independent = 0
 on-arrival: woytinsky_advisor = 1; n_advisors += 1; labor_strength += 3
 go-to: advisor_menu
 
-Wladimir Woytinsky is now an advisor.
+John Maynard Keynes is now an advisor.
 
 
 # neorevisionist leaders
 
-@add_mierendorff
-title: Carlo Mierendorff
+@add_Samuel
+title: Herbert Samuel
 subtitle: Carlo Mierendorff is one of the youngest members of the Reichstag, and the originator of the "Neo-Revisionist" movement. He is an anti-Nazi strategist. {!<br><br>!}[? if difficulty < 0 : Actions - Build the Iron Front, Warning About the Nazis ?]
 is-card: true
 card-image: img/portraits/MierendorffCarlo.jpg
@@ -558,10 +558,10 @@ on-arrival: mierendorff_advisor = 1; n_advisors += 1; neorevisionist_strength +=
 go-to: advisor_menu
 tags: neorev_advisor
 
-Carlo Mierendorff is now an advisor.
+Herbert Samuel is now an advisor.
 
-@add_schumacher
-title: Kurt Schumacher
+@add_Jones
+title: Henry Haydn Jones
 subtitle: Kurt Schumacher is a Great War veteran and energetic speaker for the social-democratic cause, and favors reformist policies. {!<br><br>!}[? if difficulty < 0 : Actions - Emergency Fundraising, Building the Reichsbanner, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/SchumacherKurt.jpg
@@ -570,10 +570,10 @@ view-if: schumacher_advisor = 0 and n_advisors < 3
 on-arrival: schumacher_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
 go-to: advisor_menu
 
-Kurt Schumacher is now an advisor.
+Henry Haydn Jones is now an advisor.
 
-@add_leber
-title: Julius Leber
+@add_Runciman
+title: Hilda Runciman
 subtitle: Julius Leber is a former Reichswehr officer who resigned in opposition to the Kapp coup attempt. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Democracy, Military Affairs, Building a People's Party ?]
 is-card: true
 card-image: img/portraits/LeberJulius.jpg
@@ -582,12 +582,12 @@ on-arrival: leber_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
 go-to: advisor_menu
 tags: neorev_advisor
 
-Julius Leber is now an advisor.
+Hilda Runciman is now an advisor.
 
 # Nonfactional advisors
 
-@add_baade
-title: Fritz Baade
+@add_Pratt
+title: John Pratt
 subtitle: Fritz Baade is one of the few agricultural policy experts in the SPD. {!<br><br>!}[? if difficulty < 0 : Actions - Agricultural Policy, Rural Campaigning, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/BaadeFritz.jpg
@@ -596,11 +596,11 @@ on-arrival: baade_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
-Fritz Baade is now an advisor.
+John Pratt is now an advisor.
 
 
-@add_hirschfeld
-title: Magnus Hirschfeld
+@add_Hobson
+title: John A. Hobson
 subtitle: Magnus Hirschfeld is the founder of the Institut für Sexualwissenschaft and an advocate for the rights of sexual minorities. {!<br><br>!}[? if difficulty < 0 : Actions - Homosexual Rights, Women's Rights, Science Funding ?]
 is-card: true
 card-image: img/portraits/HirschfeldMagnus.jpg
@@ -609,12 +609,12 @@ on-arrival: hirschfeld_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
-Magnus Hirschfeld is now an advisor.
+John A. Hobson is now an advisor.
 
 # TODO: add radbruch, stampfer
 
-@add_radbruch
-title: Gustav Radbruch
+@add_Churchill
+title: Winston Churchill
 subtitle: Gustav Radbruch is a renowned legal scholar and long-time SPD justice minister. {!<br><br>!}[? if difficulty < 0 : Actions - Judicial Affairs, Constitutional Reform ?]
 is-card: true
 card-image: img/portraits/RadbruchGustav.jpg
@@ -623,11 +623,11 @@ on-arrival: radbruch_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
-Gustav Radbruch is now an advisor.
+Winston Churchill is now an advisor.
 
 
-@add_stampfer
-title: Friedrich Stampfer
+@add_Howard
+title: Geoffrey Howard
 subtitle: Friedrich Stampfer is the long-time editor-in-chief of Vorwärts, our party newspaper. {!<br><br>!}[? if difficulty < 0 : Actions - Media, Editorial Line, Cooperation with the KPD ?]
 is-card: true
 card-image: img/portraits/StampferFriedrich.jpg
@@ -636,6 +636,6 @@ on-arrival: stampfer_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
-Friedrich Stampfer is now an advisor.
+Geoffrey Howard is now an advisor.
 
 
