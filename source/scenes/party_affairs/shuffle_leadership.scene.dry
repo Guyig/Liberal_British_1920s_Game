@@ -432,8 +432,8 @@ Reginald McKenna is now an advisor.
 
 # left
 
-@add_grey
-title: Edward Grey
+@add_haldane
+title: Richard Haldane
 subtitle: Paul Levi is a former KPD leader who was purged for criticizing Communist policies. {!<br><br>!}[? if difficulty < 0 : Actions - Building the Left, Cooperation with the KPD ?]
 is-card: true
 card-image: img/portraits/LeviPaul.jpg
@@ -442,7 +442,7 @@ on-arrival: levi_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-Edward Grey is now an advisor.
+Richard Haldane is now an advisor.
 
 @add_crewe
 title: Marquess of Crewe
