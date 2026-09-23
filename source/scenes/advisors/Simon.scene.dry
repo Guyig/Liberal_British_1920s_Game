@@ -5,9 +5,9 @@ card-image: img/portraits/WelsOtto.jpg
 view-if: wels_advisor = 1
 new-page: true
 
-= John Simon is the former solicitor general of Wales and England. He is an outspoken protectionist and a right wing liberal.
+= John Simon
 
-Wels is the long-time chairman of the SPD. He is a gifted organizer and a member of the centrist faction.
+John Simon is the former solicitor general of Wales and England. He is an outspoken protectionist and a right wing liberal.
 
 - @clear_agenda
 - @party_discipline
