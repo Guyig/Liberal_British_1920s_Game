@@ -331,7 +331,7 @@ view-if: n_advisors < 3
 
 @add_hobhouse
 title: John A. Hobhouse
-subtitle: Rudolf Hilferding is an economist and one of our chief Marxist theoreticians. {!<br><br>!}[? if difficulty < 0 : Actions - Against Right and Left, Defending Toleration, Fiscal Policy, Economic Democracy ?]
+subtitle: John A. Hobhouse is a polticial theorist and sociologist, And a founding figure in the social liberal movement.
 is-card: true
 card-image: img/portraits/HilferdingRudolf.jpg
 tags: center_advisor
@@ -343,7 +343,7 @@ John A. Hobhouse is now an advisor.
 
 @add_simon
 title: John Simon
-subtitle: Otto Wels is a long-time party organizer and member of the leadership, serving under Friedrich Ebert. {!<br><br>!}[? if difficulty < 0 : Actions -  Clear the Agenda, Party Discipline, Emergency Fundraising ?]
+subtitle: John Simon is the former solicitor general of Wales and England. He is an outspoken protectionist and a right wing liberal.
 is-card: true
 card-image: img/portraits/WelsRudolf.jpg
 tags: center_advisor
@@ -355,7 +355,7 @@ John Simon is now an advisor.
 
 @add_asquith
 title: H.H Asquith
-subtitle: Hermann Müller is the last Social Democratic Chancellor. {!<br><br>!}[? if difficulty < 0 : Actions - Negotiating with the Coalition, Defending Toleration ?]
+subtitle: H.H Asquith is a former [? if chancellor = "Müller": and current ?] PM and leader of the Liberals after David Lloyd George left.
 is-card: true
 card-image: img/portraits/MüllerHermann.jpg
 tags: center_advisor
@@ -366,8 +366,8 @@ go-to: advisor_menu
 H.H Asquith is now an advisor.
 
 @add_harmsworth
-title: Harmsworth
-subtitle: Rudolf Breitscheid comes from a well-educated background and is one of our foreign policy leaders. {!<br><br>!}[? if difficulty < 0 : Actions - International Relations, Foreign Policy, Party Discipline ?]
+title: Lord Harmsworth
+subtitle: Lord Harmsworth is the former Under-Secretary of State for Foreign Affairs from David Lloyd George's cabinet. Although he was briefly a National Liberal, He rejoined the true Liberal party only a year afterwards.
 is-card: true
 card-image: img/portraits/BreitscheidRudolf.jpg
 view-if: breitscheid_advisor = 0 and n_advisors < 3
@@ -375,14 +375,14 @@ on-arrival: breitscheid_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: center_advisor
 
-Harmsworth is now an advisor.
+Lord Harmsworth is now an advisor.
 
 # reformist
 
 
 @add_wintrigham
 title: Margaret Wintringham
-subtitle: Carl Severing is a one-time Prussian interior minister and police reformer. {!<br><br>!}[? if difficulty < 0 : Actions - Prussian Bulwark, Police Affairs ?]
+subtitle: Margaret Wintringham is the first female Liberal MP and the first British-born female MP. She campaigns for equal pay and women-only spaces. She is also the head of the Women's Liberal Association.
 is-card: true
 card-image: img/portraits/SeveringCarl.jpg
 tags: reformist_advisor
@@ -394,7 +394,7 @@ Margaret Wintringham is now an advisor.
 
 @add_lewis
 title: Herbert Lewis
-subtitle: Otto Braun is the Minister-President of Prussia, and one of the most recognizable and well-known Social Democratic leaders. {!<br><br>!}[? if difficulty < 0 : Actions - Prussian Bulwark, Negotiating with the Coalition ?]
+subtitle: Herbert Lewis [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was ?] one of the main Welsh Liberal polticans. He is the former MP for Flintshire and University of Wales. Despite being apart of the main Liberal Party, He is still close with Lloyd George- As evidenced by his OBE in the 1922 Dissolution Honours.
 is-card: true
 card-image: img/portraits/BraunOtto.jpg
 tags: reformist_advisor
@@ -406,7 +406,7 @@ Herbert Lewis is now an advisor.
 
 @add_beveridge
 title: William Beveridge
-subtitle: Marie Juchacz is the founder of Worker's Welfare, a mutual-aid organization. {!<br><br>!}[? if difficulty < 0 : Actions - Emergency Fundraising, Worker's Welfare, Organizing Women ?]
+subtitle: William Bevridge is the leading economist on unemployement in the UK. He is the director of the London School of Economics.
 is-card: true
 card-image: img/portraits/JuchaczMarie.jpg
 view-if: juchacz_advisor = 0 and n_advisors < 3
@@ -418,7 +418,7 @@ William Beveridge is now an advisor.
 
 @add_mckenna
 title: Reginald McKenna
-subtitle: Antonie Pfülf is a leader in social policy and women's rights. {!<br><br>!}[? if difficulty < 0 : Actions - Support a People's Party, Women's Rights ?]
+subtitle: Reginald McKenna is a banker and the former chancellor. He is technocratic and argubably the most of any Liberal poltician.
 is-card: true
 card-image: img/portraits/PfülfAntonie.jpg
 view-if: pfulf_advisor = 0 and n_advisors < 3
@@ -434,7 +434,7 @@ Reginald McKenna is now an advisor.
 
 @add_haldane
 title: Richard Haldane
-subtitle: Paul Levi is a former KPD leader who was purged for criticizing Communist policies. {!<br><br>!}[? if difficulty < 0 : Actions - Building the Left, Cooperation with the KPD ?]
+subtitle: Richard Haldane is a Scottish Liberal politician. He is the former Lord Chancellor and the forefather of the 'Haldane Reforms' to the armies. He is a staunch Liberal imperialist.
 is-card: true
 card-image: img/portraits/LeviPaul.jpg
 view-if: levi_advisor = 0 and levi_dead = 0 and n_advisors < 3 and left_split = 0
@@ -444,9 +444,9 @@ tags: left_advisor
 
 Richard Haldane is now an advisor.
 
-@add_crewe
-title: Marquess of Crewe
-subtitle: Toni Sender is an anti-war and womens' rights advocate, and Reichstag member. {!<br><br>!}[? if difficulty < 0 : Actions - Left-Center Unity, Organizing Women, Against Toleration, Addressing the Economic Crisis ?]
+@add_carington
+title: Charles Wynn-Carington
+subtitle: Charles Wynn-Carington is an MP, Nobleman, Freemason and Governor of New South Wales. He is the former President of the Board of Argiculture.
 is-card: true
 card-image: img/portraits/SenderToni.jpg
 view-if: sender_advisor = 0 and n_advisors < 3
@@ -454,11 +454,11 @@ on-arrival: sender_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
-The Marquess of Crewe is now an advisor.
+Charles Wynn-Carington is now an advisor.
 
 @add_macnarma
 title: Thomas Macnamara
-subtitle: Kurt Rosenfeld is a lawyer, anti-militarist activist, and Reichstag member. {!<br><br>!}[? if difficulty < 0 : Actions - Building the Left, Cooperation with the KPD, Against Toleration ?]
+subtitle: Thomas Macnamara is a former Minister of Labour and Teacher. He holds radical views.
 is-card: true
 card-image: img/portraits/RosenfeldKurt.jpg
 view-if: rosenfeld_advisor = 0 and n_advisors < 3 and left_split = 0
@@ -470,7 +470,7 @@ Thomas Macnamara is now an advisor.
 
 @add_MacLean
 title: Donald MacLean
-subtitle: Max Seydewitz is a former leader of the youth wing, current supporter of the left wing of the SPD, and advocates for class struggle. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Class Struggle, Socialist Youth, Against Toleration ?]
+subtitle: Donald MacLean is the current President of the Liberal Party and former Interim Leader of the Liberal Party.
 is-card: true
 card-image: img/portraits/SeydewitzMax.jpg
 view-if: seydewitz_advisor = 0 and n_advisors < 3 and left_split = 0
@@ -482,7 +482,7 @@ Donald MacLean is now an advisor.
 
 @add_AcLand
 title: Francis Dyke Acland
-subtitle: Anna Siemsen is an and educational reform advocate and pacifist, who was one of the few German women to receive a PhD in the pre-war period. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Pacifism, Educational Curriculum, Educational Structure ?]
+subtitle: Francis Dyke Acland is a former member of the treasury and department of colonies. He is a member of the 'New Liberal' movement.
 is-card: true
 card-image: img/portraits/SiemsenAnna.jpg
 view-if: siemsen_advisor = 0 and n_advisors < 3 and left_split = 0
@@ -498,7 +498,7 @@ Francis Dyke Acland is now an advisor.
 
 @add_Grey
 title: Edward Grey
-subtitle: Theodor Leipart is the leader of the ADGB, the German Trade Union Federation. {!<br><br>!}[? if difficulty < 0 : Actions - Organizing Workers, Addressing the Economic Crisis ?]
+subtitle: Edward Grey is the former Ambassador to the America and Foreign Secretary. He is a firm supporter of imperialism.
 is-card: true
 card-image: img/portraits/LeipartTheodor.jpg
 tags: labor_advisor
@@ -510,7 +510,7 @@ Edward Grey is now an advisor.
 
 @add_Crewe
 title: The Marquess of Crewe
-subtitle: Siegfried Aufhäuser is the leader of the AfA-Bund, the white-collar trade union federation. {!<br><br>!}[? if difficulty < 0 : Actions - Organizing White-Collar Workers, Union-Party Coordination, Addressing the Economic Crisis ?]
+subtitle: The Marquess of Crewe is the former colonial poltician. His main focuses have long been to our main colonies like Ireland and India. He is also the former Leader of the House of Lords.
 is-card: true
 card-image: img/portraits/AufhäuserSiegfried.jpg
 tags: labor_advisor
@@ -522,7 +522,7 @@ The Marquess of Crewe is now an advisor.
 
 @add_MacNarma
 title: Thomas Macnamara
-subtitle: Rudolf Wissell is an economist who has been the Labor Minister, and is an advocate for the interests of labor within the government. {!<br><br>!}[? if difficulty < 0 : Actions - Union-Party Coordination, Labor Rights ?]
+subtitle: Thomas Macnamara is a former Minister of Labour and Teacher. He holds radical views.
 is-card: true
 card-image: img/portraits/WissellRudolf.jpg
 tags: labor_advisor
@@ -535,7 +535,7 @@ Thomas Macnamara is now an advisor.
 
 @add_Kenyes
 title: John Maynard Keynes
-subtitle: Wladimir Woytinsky is a former Russian Menshevik who is now the lead trade union economist. {!<br><br>!}[? if difficulty < 0 : Actions - Addressing the Economic Crisis, Carrying Out the Economic Plan ?]
+subtitle: John Maynard Kenyes is a economist, A former nominee for the Nobel Peace Prize and an outspoken critic of the Gold Standard.
 is-card: true
 card-image: img/portraits/WoytinskyWladimir.jpg
 tags: labor_advisor
@@ -550,7 +550,7 @@ John Maynard Keynes is now an advisor.
 
 @add_Samuel
 title: Herbert Samuel
-subtitle: Carlo Mierendorff is one of the youngest members of the Reichstag, and the originator of the "Neo-Revisionist" movement. He is an anti-Nazi strategist. {!<br><br>!}[? if difficulty < 0 : Actions - Build the Iron Front, Warning About the Nazis ?]
+subtitle: Herbert Samuel is the current High Commisioner for Palestine and former MP for Cleveland. He is moderate on imperialism and was a key MP in introducing the historic 1918 bill which introduced women's suffrage.
 is-card: true
 card-image: img/portraits/MierendorffCarlo.jpg
 view-if: mierendorff_advisor = 0 and n_advisors < 3
@@ -562,7 +562,7 @@ Herbert Samuel is now an advisor.
 
 @add_Jones
 title: Henry Haydn Jones
-subtitle: Kurt Schumacher is a Great War veteran and energetic speaker for the social-democratic cause, and favors reformist policies. {!<br><br>!}[? if difficulty < 0 : Actions - Emergency Fundraising, Building the Reichsbanner, Addressing the Economic Crisis ?]
+subtitle: Henry Haydn Jones is a Welsh Liberal MP for Merionth and owner of Talyllyn Railway.
 is-card: true
 card-image: img/portraits/SchumacherKurt.jpg
 tags: neorev_advisor
@@ -573,8 +573,8 @@ go-to: advisor_menu
 Henry Haydn Jones is now an advisor.
 
 @add_Runciman
-title: Hilda Runciman
-subtitle: Julius Leber is a former Reichswehr officer who resigned in opposition to the Kapp coup attempt. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Democracy, Military Affairs, Building a People's Party ?]
+title: Walter Runciman
+subtitle: Walter Runciman is the former President of the Board of Trade and one of the most right wing Liberal MPs. He is the leader of the 'Radical Group'.
 is-card: true
 card-image: img/portraits/LeberJulius.jpg
 view-if: leber_advisor = 0 and n_advisors < 3
@@ -582,13 +582,13 @@ on-arrival: leber_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
 go-to: advisor_menu
 tags: neorev_advisor
 
-Hilda Runciman is now an advisor.
+Walter Runciman is now an advisor.
 
 # Nonfactional advisors
 
 @add_Pratt
 title: John Pratt
-subtitle: Fritz Baade is one of the few agricultural policy experts in the SPD. {!<br><br>!}[? if difficulty < 0 : Actions - Agricultural Policy, Rural Campaigning, Addressing the Economic Crisis ?]
+subtitle: John Pratt is the former MP for Glasgow Cathcart and one of the most prominent Scottish Liberal politicans.
 is-card: true
 card-image: img/portraits/BaadeFritz.jpg
 view-if: baade_advisor = 0 and n_advisors < 3
@@ -601,7 +601,7 @@ John Pratt is now an advisor.
 
 @add_Hobson
 title: John A. Hobson
-subtitle: Magnus Hirschfeld is the founder of the Institut für Sexualwissenschaft and an advocate for the rights of sexual minorities. {!<br><br>!}[? if difficulty < 0 : Actions - Homosexual Rights, Women's Rights, Science Funding ?]
+subtitle: John A. Hobson is a English economist. He is a critic of imperialism and developed the idea of underconsumption.
 is-card: true
 card-image: img/portraits/HirschfeldMagnus.jpg
 view-if: hirschfeld_advisor = 0 and n_advisors < 3
@@ -611,11 +611,9 @@ tags: nonfactional_advisor
 
 John A. Hobson is now an advisor.
 
-# TODO: add radbruch, stampfer
-
 @add_Churchill
 title: Winston Churchill
-subtitle: Gustav Radbruch is a renowned legal scholar and long-time SPD justice minister. {!<br><br>!}[? if difficulty < 0 : Actions - Judicial Affairs, Constitutional Reform ?]
+subtitle: Winston Churchill is a writer and war time hero along with being former Home Secretary. He is anti socialist, imperialist and anti union. He keeps close ties with Lloyd George.
 is-card: true
 card-image: img/portraits/RadbruchGustav.jpg
 view-if: radbruch_advisor = 0 and n_advisors < 3
@@ -628,7 +626,7 @@ Winston Churchill is now an advisor.
 
 @add_Howard
 title: Geoffrey Howard
-subtitle: Friedrich Stampfer is the long-time editor-in-chief of Vorwärts, our party newspaper. {!<br><br>!}[? if difficulty < 0 : Actions - Media, Editorial Line, Cooperation with the KPD ?]
+subtitle: Geoffrey Howard is a former member of the Royal Household and a former member of the Royal Marines.
 is-card: true
 card-image: img/portraits/StampferFriedrich.jpg
 view-if: stampfer_advisor = 0 and n_advisors < 3
