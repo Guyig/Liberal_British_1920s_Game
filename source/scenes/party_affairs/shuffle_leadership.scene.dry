@@ -35,7 +35,7 @@ tags: remove_advisor
 
 @remove_hobhouse
 title: Remove Hobhouse
-view-if: hilferding_advisor = 1
+view-if: hobhouse_advisor = 1
 on-arrival: hilferding_advisor = 0; center_dissent += 5; n_advisors -= 1
 tags: remove_advisor
 go-to: rm_main
@@ -44,7 +44,7 @@ Hobhouse has been removed as an advisor. The Centrist faction disapproves.
 
 @remove_simon
 title: Remove Simon
-view-if: wels_advisor = 1
+view-if: simon_advisor = 1
 tags: remove_advisor
 on-arrival: wels_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -53,7 +53,7 @@ Simon has been removed as an advisor. The Centrist faction disapproves.
 
 @remove_asquith
 title: Remove Asquith
-view-if: muller_advisor = 1
+view-if: asquith_advisor = 1
 tags: remove_advisor
 on-arrival: muller_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -63,7 +63,7 @@ Asquith has been removed as an advisor. The Centrist faction disapproves.
 
 @remove_harmsworth
 title: Remove Harmsworth
-view-if: breitscheid_advisor = 1
+view-if: harmsworth_advisor = 1
 tags: remove_advisor
 on-arrival: breitscheid_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -75,7 +75,7 @@ Harmsworth has been removed as an advisor. The Centrist faction disapproves.
 
 @remove_wintrigham
 title: Remove Wintrigham
-view-if: severing_advisor = 1
+view-if: wintrigham_advisor = 1
 tags: remove_advisor
 on-arrival: severing_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -84,7 +84,7 @@ Wintrigham has been removed as an advisor. The Reformist faction disapproves.
 
 @remove_lewis
 title: Remove Lewis
-view-if: braun_advisor = 1
+view-if: lewis_advisor = 1
 tags: remove_advisor
 on-arrival: braun_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -93,7 +93,7 @@ Lewis has been removed as an advisor. The Reformist faction disapproves.
 
 @remove_beveridge
 title: Remove Beveridge
-view-if: juchacz_advisor = 1
+view-if: beveridge_advisor = 1
 tags: remove_advisor
 on-arrival: juchacz_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -102,7 +102,7 @@ Beveridge has been removed as an advisor. The Reformist faction disapproves.
 
 @remove_mckenna
 title: Remove McKenna
-view-if: pfulf_advisor = 1
+view-if: mckenna_advisor = 1
 tags: remove_advisor
 on-arrival: pfulf_advisor = 0; reformist_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -114,7 +114,7 @@ McKenna has been removed as an advisor. The Reformist faction disapproves.
 
 @remove_grey
 title: Remove Grey
-view-if: leipart_advisor = 1
+view-if: grey_advisor = 1
 tags: remove_advisor
 on-arrival: leipart_advisor = 0; labor_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -123,7 +123,7 @@ Grey has been removed as an advisor. The Labor faction disapproves.
 
 @remove_crewe
 title: Remove Crewe
-view-if: aufhauser_advisor = 1
+view-if: crewe_advisor = 1
 tags: remove_advisor
 on-arrival: aufhauser_advisor = 0; labor_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -132,7 +132,7 @@ Crewe has been removed as an advisor. The Labor faction disapproves.
 
 @remove_macnarma
 title: Remove Macnarma
-view-if: wissell_advisor = 1
+view-if: macnarma_advisor = 1
 tags: remove_advisor
 on-arrival: wissell_advisor = 0; labor_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -142,7 +142,7 @@ Macnarma has been removed as an advisor. The Labor faction disapproves.
 
 @remove_kenyes
 title: Remove Kenyes
-view-if: woytinsky_advisor = 1
+view-if: kenyes_advisor = 1
 tags: remove_advisor
 on-arrival: woytinsky_advisor = 0; labor_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -153,7 +153,7 @@ Kenyes has been removed as an advisor. The Labor faction disapproves.
 
 @remove_haldane
 title: Remove Haldane
-view-if: levi_advisor = 1
+view-if: haldane_advisor = 1
 tags: remove_advisor
 on-arrival: levi_advisor = 0; left_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -162,7 +162,7 @@ Haldane has been removed as an advisor. The Leftist faction disapproves.
 
 @remove_carington
 title: Remove Carington
-view-if: sender_advisor = 1
+view-if: carington_advisor = 1
 tags: remove_advisor
 on-arrival: sender_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -171,7 +171,7 @@ Carington has been removed as an advisor. The Leftist faction disapproves.
 
 @remove_munro
 title: Remove Munro
-view-if: rosenfeld_advisor = 1
+view-if: munro_advisor = 1
 tags: remove_advisor
 on-arrival: rosenfeld_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -180,7 +180,7 @@ Munro has been removed as an advisor. The Leftist faction disapproves.
 
 @remove_maclean
 title: Remove Maclean
-view-if: seydewitz_advisor = 1
+view-if: maclean_advisor = 1
 tags: remove_advisor
 on-arrival: seydewitz_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -189,7 +189,7 @@ Maclean has been removed as an advisor. The Leftist faction disapproves.
 
 @remove_acland
 title: Remove AcLand
-view-if: siemsen_advisor = 1
+view-if: acland_advisor = 1
 tags: remove_advisor
 on-arrival: siemsen_advisor = 0; left_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -203,7 +203,7 @@ AcLand has been removed as an advisor. The Leftist faction disapproves.
 
 @remove_samuel
 title: Remove Samuel
-view-if: mierendorff_advisor = 1
+view-if: samuel_advisor = 1
 tags: remove_advisor
 on-arrival: mierendorff_advisor = 0; neorevisionist_dissent += 5; n_advisors -= 1
 go-to: rm_main
@@ -212,7 +212,7 @@ Samuel has been removed as an advisor. The Neorevisionist faction disapproves.
 
 @remove_runciman
 title: Remove Runciman
-view-if: leber_advisor = 1
+view-if: runciman_advisor = 1
 tags: remove_advisor
 on-arrival: leber_advisor = 0; neorevisionist_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -221,7 +221,7 @@ Runciman has been removed as an advisor. The Neorevisionist faction disapproves.
 
 @remove_jones
 title: Remove Jones
-view-if: schumacher_advisor = 1
+view-if: jones_advisor = 1
 tags: remove_advisor
 on-arrival: schumacher_advisor = 0; neorevisionist_dissent += 3; n_advisors -= 1
 go-to: rm_main
@@ -235,7 +235,7 @@ Jones has been removed as an advisor. The Neorevisionist faction disapproves.
 
 @remove_pratt
 title: Remove Pratt
-view-if: baade_advisor = 1
+view-if: pratt_advisor = 1
 tags: remove_advisor
 on-arrival: baade_advisor = 0; n_advisors -= 1
 go-to: rm_main
@@ -247,7 +247,7 @@ Pratt has been removed as an advisor.
 
 @remove_hobson
 title: Remove Hobson
-view-if: hirschfeld_advisor = 1
+view-if: hobson_advisor = 1
 tags: remove_advisor
 on-arrival: hirschfeld_advisor = 0; n_advisors -= 1
 go-to: rm_main
@@ -256,7 +256,7 @@ Hobson has been removed as an advisor.
 
 @remove_howard
 title: Remove Howard
-view-if: stampfer_advisor = 1
+view-if: howard_advisor = 1
 tags: remove_advisor
 on-arrival: stampfer_advisor = 0; n_advisors -= 1
 go-to: rm_main
@@ -265,7 +265,7 @@ Howard has been removed as an advisor.
 
 @remove_churchill
 title: Remove Churchill
-view-if: radbruch_advisor = 1
+view-if: churchill_advisor = 1
 tags: remove_advisor
 on-arrival: radbruch_advisor = 0; n_advisors -= 1
 go-to: rm_main
@@ -335,8 +335,8 @@ subtitle: John A. Hobhouse is a polticial theorist and sociologist, And a foundi
 is-card: true
 card-image: img/portraits/HilferdingRudolf.jpg
 tags: center_advisor
-view-if: hilferding_advisor = 0 and n_advisors < 3 and centrists_resign = 0
-on-arrival: hilferding_advisor = 1; n_advisors += 1
+view-if: hobhouse_advisor = 0 and n_advisors < 3 and centrists_resign = 0
+on-arrival: hobhouse_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
 John A. Hobhouse is now an advisor.
@@ -347,8 +347,8 @@ subtitle: John Simon is the former solicitor general of Wales and England. He is
 is-card: true
 card-image: img/portraits/WelsRudolf.jpg
 tags: center_advisor
-view-if: wels_advisor = 0 and n_advisors < 3 and centrists_resign = 0
-on-arrival: wels_advisor = 1; n_advisors += 1
+view-if: simon_advisor = 0 and n_advisors < 3 and centrists_resign = 0
+on-arrival: simon_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
 John Simon is now an advisor.
@@ -359,8 +359,8 @@ subtitle: H.H Asquith is a former [? if chancellor = "Müller": and current ?] P
 is-card: true
 card-image: img/portraits/MüllerHermann.jpg
 tags: center_advisor
-view-if: muller_advisor = 0 and muller_dead = 0 and n_advisors < 3 and centrists_resign = 0
-on-arrival: muller_advisor = 1; n_advisors += 1
+view-if: asquith_advisor = 0 and muller_dead = 0 and n_advisors < 3 and centrists_resign = 0
+on-arrival: asquith_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 
 H.H Asquith is now an advisor.
@@ -370,8 +370,8 @@ title: Lord Harmsworth
 subtitle: Lord Harmsworth is the former Under-Secretary of State for Foreign Affairs from David Lloyd George's cabinet. Although he was briefly a National Liberal, He rejoined the true Liberal party only a year afterwards.
 is-card: true
 card-image: img/portraits/BreitscheidRudolf.jpg
-view-if: breitscheid_advisor = 0 and n_advisors < 3
-on-arrival: breitscheid_advisor = 1; n_advisors += 1
+view-if: harmsworth_advisor = 0 and n_advisors < 3
+on-arrival: harmsworth_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: center_advisor
 
@@ -386,8 +386,8 @@ subtitle: Margaret Wintringham is the first female Liberal MP and the first Brit
 is-card: true
 card-image: img/portraits/SeveringCarl.jpg
 tags: reformist_advisor
-view-if: severing_advisor = 0 and n_advisors < 3
-on-arrival: severing_advisor = 1; n_advisors += 1; reformist_strength += 5
+view-if: wintrignham_advisor = 0 and n_advisors < 3
+on-arrival: wintrignham_advisor = 1; n_advisors += 1; reformist_strength += 5
 go-to: advisor_menu
 
 Margaret Wintringham is now an advisor.
@@ -398,8 +398,8 @@ subtitle: Herbert Lewis [? if spd_prussia = 1 : is ?][? if spd_prussia = 0 : was
 is-card: true
 card-image: img/portraits/BraunOtto.jpg
 tags: reformist_advisor
-view-if: braun_advisor = 0 and n_advisors < 3
-on-arrival: braun_advisor = 1; n_advisors += 1; reformist_strength += 5
+view-if: lewis_advisor = 0 and n_advisors < 3
+on-arrival: lewis_advisor = 1; n_advisors += 1; reformist_strength += 5
 go-to: advisor_menu
 
 Herbert Lewis is now an advisor.
@@ -409,8 +409,8 @@ title: William Beveridge
 subtitle: William Bevridge is the leading economist on unemployement in the UK. He is the director of the London School of Economics.
 is-card: true
 card-image: img/portraits/JuchaczMarie.jpg
-view-if: juchacz_advisor = 0 and n_advisors < 3
-on-arrival: juchacz_advisor = 1; n_advisors += 1; reformist_strength += 5
+view-if: beveridge_advisor = 0 and n_advisors < 3
+on-arrival: beveridge_advisor = 1; n_advisors += 1; reformist_strength += 5
 go-to: advisor_menu
 tags: reformist_advisor
 
@@ -421,8 +421,8 @@ title: Reginald McKenna
 subtitle: Reginald McKenna is a banker and the former chancellor. He is technocratic and argubably the most of any Liberal poltician.
 is-card: true
 card-image: img/portraits/PfülfAntonie.jpg
-view-if: pfulf_advisor = 0 and n_advisors < 3
-on-arrival: pfulf_advisor = 1; n_advisors += 1
+view-if: mckenna_advisor = 0 and n_advisors < 3
+on-arrival: mckenna_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: reformist_advisor
 
@@ -437,8 +437,8 @@ title: Richard Haldane
 subtitle: Richard Haldane is a Scottish Liberal politician. He is the former Lord Chancellor and the forefather of the 'Haldane Reforms' to the armies. He is a staunch Liberal imperialist.
 is-card: true
 card-image: img/portraits/LeviPaul.jpg
-view-if: levi_advisor = 0 and levi_dead = 0 and n_advisors < 3 and left_split = 0
-on-arrival: levi_advisor = 1; n_advisors += 1; left_strength += 5
+view-if: haldane_advisor = 0 and levi_dead = 0 and n_advisors < 3 and left_split = 0
+on-arrival: haldane_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
@@ -449,8 +449,8 @@ title: Charles Wynn-Carington
 subtitle: Charles Wynn-Carington is an MP, Nobleman, Freemason and Governor of New South Wales. He is the former President of the Board of Argiculture.
 is-card: true
 card-image: img/portraits/SenderToni.jpg
-view-if: sender_advisor = 0 and n_advisors < 3
-on-arrival: sender_advisor = 1; n_advisors += 1; left_strength += 5
+view-if: carington_advisor = 0 and n_advisors < 3
+on-arrival: carington_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
@@ -461,8 +461,8 @@ title: Thomas Macnamara
 subtitle: Thomas Macnamara is a former Minister of Labour and Teacher. He holds radical views.
 is-card: true
 card-image: img/portraits/RosenfeldKurt.jpg
-view-if: rosenfeld_advisor = 0 and n_advisors < 3 and left_split = 0
-on-arrival: rosenfeld_advisor = 1; n_advisors += 1; left_strength += 5
+view-if: macnarma_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: macnarma_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
@@ -473,8 +473,8 @@ title: Donald MacLean
 subtitle: Donald MacLean is the current President of the Liberal Party and former Interim Leader of the Liberal Party.
 is-card: true
 card-image: img/portraits/SeydewitzMax.jpg
-view-if: seydewitz_advisor = 0 and n_advisors < 3 and left_split = 0
-on-arrival: seydewitz_advisor = 1; n_advisors += 1; left_strength += 5
+view-if: maclean_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: maclean_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
@@ -485,8 +485,8 @@ title: Francis Dyke Acland
 subtitle: Francis Dyke Acland is a former member of the treasury and department of colonies. He is a member of the 'New Liberal' movement.
 is-card: true
 card-image: img/portraits/SiemsenAnna.jpg
-view-if: siemsen_advisor = 0 and n_advisors < 3 and left_split = 0
-on-arrival: siemsen_advisor = 1; n_advisors += 1; left_strength += 5
+view-if: acland_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: acland_advisor = 1; n_advisors += 1; left_strength += 5
 go-to: advisor_menu
 tags: left_advisor
 
@@ -502,8 +502,8 @@ subtitle: Edward Grey is the former Ambassador to the America and Foreign Secret
 is-card: true
 card-image: img/portraits/LeipartTheodor.jpg
 tags: labor_advisor
-view-if: leipart_advisor = 0 and n_advisors < 3 and unions_independent = 0
-on-arrival: leipart_advisor = 1; n_advisors += 1; labor_strength += 5
+view-if: grey_advisor = 0 and n_advisors < 3 and unions_independent = 0
+on-arrival: grey_advisor = 1; n_advisors += 1; labor_strength += 5
 go-to: advisor_menu
 
 Edward Grey is now an advisor.
@@ -514,8 +514,8 @@ subtitle: The Marquess of Crewe is the former colonial poltician. His main focus
 is-card: true
 card-image: img/portraits/AufhäuserSiegfried.jpg
 tags: labor_advisor
-view-if: aufhauser_advisor = 0 and n_advisors < 3
-on-arrival: aufhauser_advisor = 1; n_advisors += 1; labor_strength += 5
+view-if: crewe_advisor = 0 and n_advisors < 3
+on-arrival: crewe_advisor = 1; n_advisors += 1; labor_strength += 5
 go-to: advisor_menu
 
 The Marquess of Crewe is now an advisor.
@@ -526,8 +526,8 @@ subtitle: Thomas Macnamara is a former Minister of Labour and Teacher. He holds 
 is-card: true
 card-image: img/portraits/WissellRudolf.jpg
 tags: labor_advisor
-view-if: wissell_advisor = 0 and n_advisors < 3 and unions_independent = 0
-on-arrival: wissell_advisor = 1; n_advisors += 1; labor_strength += 3
+view-if: macnarma_advisor = 0 and n_advisors < 3 and unions_independent = 0
+on-arrival: macnarma_advisor = 1; n_advisors += 1; labor_strength += 3
 go-to: advisor_menu
 
 Thomas Macnamara is now an advisor.
@@ -539,8 +539,8 @@ subtitle: John Maynard Kenyes is a economist, A former nominee for the Nobel Pea
 is-card: true
 card-image: img/portraits/WoytinskyWladimir.jpg
 tags: labor_advisor
-view-if: woytinsky_advisor = 0 and n_advisors < 3 and unions_independent = 0
-on-arrival: woytinsky_advisor = 1; n_advisors += 1; labor_strength += 3
+view-if: kenyes_advisor = 0 and n_advisors < 3 and unions_independent = 0
+on-arrival: kenyes_advisor = 1; n_advisors += 1; labor_strength += 3
 go-to: advisor_menu
 
 John Maynard Keynes is now an advisor.
@@ -553,8 +553,8 @@ title: Herbert Samuel
 subtitle: Herbert Samuel is the current High Commisioner for Palestine and former MP for Cleveland. He is moderate on imperialism and was a key MP in introducing the historic 1918 bill which introduced women's suffrage.
 is-card: true
 card-image: img/portraits/MierendorffCarlo.jpg
-view-if: mierendorff_advisor = 0 and n_advisors < 3
-on-arrival: mierendorff_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
+view-if: samuel_advisor = 0 and n_advisors < 3
+on-arrival: samuel_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
 go-to: advisor_menu
 tags: neorev_advisor
 
@@ -566,8 +566,8 @@ subtitle: Henry Haydn Jones is a Welsh Liberal MP for Merionth and owner of Taly
 is-card: true
 card-image: img/portraits/SchumacherKurt.jpg
 tags: neorev_advisor
-view-if: schumacher_advisor = 0 and n_advisors < 3
-on-arrival: schumacher_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
+view-if: jones_advisor = 0 and n_advisors < 3
+on-arrival: jones_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
 go-to: advisor_menu
 
 Henry Haydn Jones is now an advisor.
@@ -577,8 +577,8 @@ title: Walter Runciman
 subtitle: Walter Runciman is the former President of the Board of Trade and one of the most right wing Liberal MPs. He is the leader of the 'Radical Group'.
 is-card: true
 card-image: img/portraits/LeberJulius.jpg
-view-if: leber_advisor = 0 and n_advisors < 3
-on-arrival: leber_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
+view-if: runciman_advisor = 0 and n_advisors < 3
+on-arrival: runciman_advisor = 1; n_advisors += 1; neorevisionist_strength += 5
 go-to: advisor_menu
 tags: neorev_advisor
 
@@ -591,8 +591,8 @@ title: John Pratt
 subtitle: John Pratt is the former MP for Glasgow Cathcart and one of the most prominent Scottish Liberal politicans.
 is-card: true
 card-image: img/portraits/BaadeFritz.jpg
-view-if: baade_advisor = 0 and n_advisors < 3
-on-arrival: baade_advisor = 1; n_advisors += 1
+view-if: pratt_advisor = 0 and n_advisors < 3
+on-arrival: pratt_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
@@ -604,8 +604,8 @@ title: John A. Hobson
 subtitle: John A. Hobson is a English economist. He is a critic of imperialism and developed the idea of underconsumption.
 is-card: true
 card-image: img/portraits/HirschfeldMagnus.jpg
-view-if: hirschfeld_advisor = 0 and n_advisors < 3
-on-arrival: hirschfeld_advisor = 1; n_advisors += 1
+view-if: hobson_advisor = 0 and n_advisors < 3
+on-arrival: hobson_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
@@ -616,8 +616,8 @@ title: Winston Churchill
 subtitle: Winston Churchill is a writer and war time hero along with being former Home Secretary. He is anti socialist, imperialist and anti union. He keeps close ties with Lloyd George.
 is-card: true
 card-image: img/portraits/RadbruchGustav.jpg
-view-if: radbruch_advisor = 0 and n_advisors < 3
-on-arrival: radbruch_advisor = 1; n_advisors += 1
+view-if: churchill_advisor = 0 and n_advisors < 3
+on-arrival: churchill_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
@@ -629,8 +629,8 @@ title: Geoffrey Howard
 subtitle: Geoffrey Howard is a former member of the Royal Household and a former member of the Royal Marines.
 is-card: true
 card-image: img/portraits/StampferFriedrich.jpg
-view-if: stampfer_advisor = 0 and n_advisors < 3
-on-arrival: stampfer_advisor = 1; n_advisors += 1
+view-if: howard_advisor = 0 and n_advisors < 3
+on-arrival: howard_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: nonfactional_advisor
 
