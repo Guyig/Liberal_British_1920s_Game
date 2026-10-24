@@ -158,36 +158,36 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-SPD: [+ spd_votes +]%
+Liberal: [+ liberal_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
-Z + BVP: [+ z_votes +]%
+Tories: [+ z_votes +]%
 
-KPD: [+ kpd_votes +]%
+Labour: [+ labour_votes +]%
 
 [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
 
-DVP: [+ dvp_votes +]%
+National: [+ dvp_votes +]%
 
-DNVP: [+ dnvp_votes +]%
+Plaid: [+ plaid_votes +]%
 
-NSDAP: [+ nsdap_votes +]%
+UUP: [+ uup_votes +]%
 
 Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_z_display +]%, KPD: [+ workers_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ workers_ddp_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Workers: Liberal: [+ workers_liberal_display +]%, Tories: [+ workers_tories_display +]%, Labour: [+ workers_labour_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ national_name +]?]: [+ workers_national_display +]%, National: [+ workers_national_display +]%; Plaid: [+ workers_plaid_display +]%, UUP: [+ workers_UUP_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
-New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_z_display +]%, KPD: [+ new_middle_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ new_middle_ddp_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
+New Middle Class: Liberal: [+ new_middle_liberal_display +]%, Tories: [+ new_middle_z_display +]%, Labour: [+ new_middle_labour_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ national_name +]?]: [+ new_middle_national_display +]%, Plaid: [+ new_middle_plaid_display +]%; Plaid: [+ new_middle_plaid_display +]%, UUP: [+ new_middle_uup_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
-Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_z_display +]%, KPD: [+ old_middle_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ old_middle_ddp_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
+Old Middle Class: Liberal: [+ old_middle_liberal_display +]%, Tories: [+ old_middle_z_display +]%, Labour: [+ old_middle_labour_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ national_name +]?]: [+ old_middle_national_display +]%, Plaid: [+ old_middle_plaid_display +]%; Plaid: [+ old_middle_plaid_display +]%, UUP: [+ old_middle_uup_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
 
-Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_z_display +]%, KPD: [+ rural_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ rural_ddp_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
+Rural: Liberal: [+ rural_liberal_display +]%, Tories: [+ rural_Tories_display +]%, Labour: [+ rural_labour_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ rural_national_display +]%, DVP: [+ rural_national_display +]%; Plaid: [+ rural_plaid_display +]%, UUP: [+ rural_uup_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, KPD: [+ unemployed_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ unemployed_ddp_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Unemployed: Liberal: [+ unemployed_liberal_display +]%, Tories: [+ unemployed_tories_display +]%, Labour: [+ unemployed_labour_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ national_name +]?]: [+ unemployed_national_display +]%, Plaid: [+ unemployed_plaid_display +]%; Plaid: [+ unemployed_plaid_display +]%, UUP: [+ unemployed_uup_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Catholics: Liberal: [+ catholics_liberal_display +]%, Tories: [+ catholics_tories_display +]%, Labour: [+ catholics_labour_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ national_name +]?]: [+ catholics_national_display +]%, Plaid: [+ catholics_plaid_display +]%; Plaid: [+ catholics_plaid_display +]%, UUP: [+ catholics_uup_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 Support for the Republic: [+ pro_republic_disp +]%
