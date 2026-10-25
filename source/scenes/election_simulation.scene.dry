@@ -195,49 +195,49 @@ Q.old_middle_plaid = 15;
 Q.old_middle_uup = 70;
 Q.old_middle_other = 5;
 
-Q.new_middle_spd = 5;
-Q.new_middle_kpd = 0;
-Q.new_middle_z = 5;
+Q.new_middle_liberal = 5;
+Q.new_middle_labour = 0;
+Q.new_middle_tories = 5;
 Q.new_middle_ddp = 10;
-Q.new_middle_dvp = 10;
-Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 60;
+Q.new_middle_national = 10;
+Q.new_middle_plaid = 10;
+Q.new_middle_uup = 60;
 Q.new_middle_other = 5;
 
-Q.rural_spd = 0;
-Q.rural_kpd = 0;
-Q.rural_z = 5;
+Q.rural_liberal = 0;
+Q.rural_labour = 0;
+Q.rural_tories = 5;
 Q.rural_ddp = 0;
-Q.rural_dvp = 5;
-Q.rural_dnvp = 15;
-Q.rural_nsdap = 65;
+Q.rural_national = 5;
+Q.rural_plaid = 15;
+Q.rural_uup = 65;
 Q.rural_other = 5;
 
-Q.unemployed_spd = 20;
-Q.unemployed_kpd = 40;
-Q.unemployed_z = 0;
+Q.unemployed_liberal = 20;
+Q.unemployed_labour = 40;
+Q.unemployed_tories = 0;
 Q.unemployed_ddp = 0;
-Q.unemployed_dvp = 0;
-Q.unemployed_dnvp = 0;
-Q.unemployed_nsdap = 50;
+Q.unemployed_national = 0;
+Q.unemployed_plaid = 0;
+Q.unemployed_uup = 50;
 Q.unemployed_other = 5;
 
-Q.catholics_spd = 10;
-Q.catholics_kpd = 5;
-Q.catholics_z = 60;
+Q.catholics_liberal = 10;
+Q.catholics_labour = 5;
+Q.catholics_tories = 60;
 Q.catholics_ddp = 0;
-Q.catholics_dvp = 5;
-Q.catholics_dnvp = 5;
-Q.catholics_nsdap = 10;
+Q.catholics_national = 5;
+Q.catholics_plaid = 5;
+Q.catholics_uup = 10;
 Q.catholics_other = 5;
 
-Q.spd_r = 25;
-Q.kpd_r = 10;
-Q.z_r = 15;
+Q.liberal_r = 25;
+Q.labour_r = 10;
+Q.tories_r = 15;
 Q.ddp_r = 10;
-Q.dvp_r = 10;
-Q.dnvp_r = 14;
-Q.nsdap_r = 10;
+Q.national_r = 10;
+Q.plaid_r = 14;
+Q.uup_r = 10;
 Q.other_r = 5;
 !}
 go-to: election_algorithm
@@ -246,13 +246,13 @@ set-jump: post_election
 @post_election
 on-arrival: {!
 // set congress proportion to votes
-Q.spd_r = Q.spd_votes;
-Q.z_r = Q.z_votes;
-Q.kpd_r = Q.kpd_votes;
+Q.liberal_r = Q.liberal_votes;
+Q.tories_r = Q.tories_votes;
+Q.labour_r = Q.labour_votes;
 Q.ddp_r = Q.ddp_votes;
-Q.dvp_r = Q.dvp_votes;
-Q.dnvp_r = Q.dnvp_votes;
-Q.nsdap_r = Q.nsdap_votes;
+Q.national_r = Q.national_votes;
+Q.plaid_r = Q.plaid_votes;
+Q.uup_r = Q.uup_votes;
 Q.other_r = Q.other_votes;
 
 // The largest party can only be the NSDAP or the SPD.
