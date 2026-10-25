@@ -537,10 +537,10 @@ table {
 }
 
 /* Styles for parties */
-.seat.kpd {
+.seat.labour {
     fill: #8B0000;
 }
-.seat.spd {
+.seat.liberal {
     fill: #E3000F;
     stroke: var(--border-color);
     stroke-width: 1.5px;
@@ -548,22 +548,22 @@ table {
 .seat.ddp {
     fill: #DCCA4A;
 }
-.seat.z {
+.seat.tories {
     fill: #000;
 }
 .seat.bvp {
     fill: #69A2BE;
 }
-.seat.dvp {
+.seat.national {
     fill: #D5AC27;
 }
 .seat.other {
     fill: #909090;
 }
-.seat.dnvp {
+.seat.plaid {
     fill: #3F7BC1;
 }
-.seat.nsdap {
+.seat.uup {
     fill: #954B00;
 }
 .seat.sapd {
